@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
-import mysql.connector
 import redis
-from elasticsearch import Elasticsearch
 import sys
 import json
+import mysql.connector
+from elasticsearch import Elasticsearch
 
 class MysqlDB():
     def __init__(self,User,Host,Password,DB):

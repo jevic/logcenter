@@ -3,8 +3,8 @@
 
 import os,sys
 import ftplib
-from StringIO import StringIO
 from ConfigParser import ConfigParser
+#from StringIO import StringIO
 
 config = ConfigParser()
 config.read('config.ini')
